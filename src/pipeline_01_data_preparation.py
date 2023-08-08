@@ -2,6 +2,7 @@ import os
 import yaml
 import argparse
 import logging
+import pandas as pd 
 
 
 
@@ -13,6 +14,8 @@ def read_params(config_path):
 def main(config_path, datasource):
     config = read_params(config_path)
     print(config)
+ 
+
 
 
 
